@@ -6,6 +6,18 @@
 }
 
 body {
-    font-family:Montserrat,sans-serif;
+    font-family:'Montserrat',sans-serif;
     font-weight:400;
+    /*color*/
+}
+/* headings and logo*/
+h1, h2 {
+    font-family: 'Open Sans' sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /*color*/
+}
+#logo {
+    float: left;
+    font-size: 300%;
 }
