@@ -8,14 +8,15 @@
 body {
     font-family:'Montserrat',sans-serif;
     font-weight:400;
-    /*color*/
+    color: antiquewhite;
 }
 /* headings and logo*/
 h1, h2 {
     font-family: 'Open Sans' sans-serif ;
     text-transform: uppercase;
     letter-spacing: 3px;
-    /*color*/
+    color: blanchedalmond;
+    font-weight: bold;
 }
 #logo {
     float: left;
@@ -37,10 +38,25 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color:inherit;
+    font-weight: bold;
 }
 #menu a:hover{
     border-bottom: 1px solid;
 }
 .active {
     border-bottom: 1px solid;
+}
+/*hero image*/
+
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/netmain10.jpg) center center;
+    
+    
+    
+    
+    /*background: url(../images/netmain10.jpg) center center;*/
+
 }
