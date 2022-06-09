@@ -78,22 +78,22 @@
 
 
 
-    <section>
+    <section id="form_wrapper">
         <form action="https://formdump.codeinstitute.net/" method="post" class="register_form">
-            <h3>Register</h3>
-            <label for="full_name"><b>Full Name:</b></label>
-            <input type="text" id="full_name" name="full_name" class="data_input"required>
-            <hr>
-            <label for="email"> <b>Email Address:</b></label>
+            <h3>Register <i class="fa-solid fa-hand"></i></h3>
+            <label for="full_name"><b>Full Name:</b></label><br>
+            <input type="text" id="full_name" name="full_name" class="data_input"required> <br>
+            <label for="email"> <b>Email Address:</b></label><br>
             <input type="email" id="email" name="email_address" class="data_input" required> 
-            <h4>Date Of Interest</h4>
+            <h4>Date Of Interest:</h4>
             <label for="event1">August</label>
-            <input type="checkbox" id="event1" name="date_of_interest"  required>
+            <input type="checkbox" id="event1" name="date_of_interest"  value ="august">
             <label for="event2" >October</label>
-            <input type="checkbox" id="event2" name="date_of_interest" >
+            <input type="checkbox" id="event2" name="date_of_interest" value="october" >
             <label for="event3">December</label>
-            <input type="checkbox" id="event3"name="date_of_interest" >
-            <input type="submit" value="Sign me up!">
+            <input type="checkbox" id="event3"name="date_of_interest" value="december"required> <br>
+            <input type="submit" value="Sign me up!" class="submit_box">
+            
        
             
 
@@ -102,6 +102,8 @@
 
     <section></section>
 
+     <!--font awesome script-->
+     <script src="https://kit.fontawesome.com/652aefc457.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
