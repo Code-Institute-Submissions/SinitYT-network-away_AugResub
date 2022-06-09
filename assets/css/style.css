@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,46 +7,57 @@
 }
 
 body {
-    font-family:'Montserrat',sans-serif;
-    font-weight:400;
-    color:rgb(118, 69, 6);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(118, 69, 6);
 }
+
 /* headings and logo*/
-h1, h2 {
-    font-family: 'Open Sans' sans-serif ;
+h1,
+h2 {
+    font-family: 'Open Sans'sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color:rgba(44, 28, 5, 0.8) ;
+    color: rgba(44, 28, 5, 0.8);
     font-weight: bold;
 }
+
 #logo {
     float: left;
     font-size: 300%;
 }
+
 /*navigation links*/
-#menu, #logo {
+#menu,
+#logo {
     line-height: 100px;
 }
+
 #menu {
     font-size: 130%;
-    letter-spacing:3px ;
+    letter-spacing: 3px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
     font-weight: bold;
 }
-#menu a:hover{
+
+#menu a:hover {
     border-bottom: 1px solid;
 }
+
 .active {
     border-bottom: 1px solid;
 }
+
 /*hero image*/
 
 
@@ -55,33 +67,62 @@ h1, h2 {
     background: url(../images/netmain10.jpg) no-repeat center center;
     /*background: url(../images/netmain10.jpg) center center;*/
 }
+
 /*bullet box*/
-#bullet-box d{
-    
+#bullet-box d {
+
     width: 300px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
-    color:green;
-    
+    color: green;
+
 }
+
 /* footer */
 
 footer {
     height: 100px;
 }
+
 #social-invite {
     text-align: center;
 }
+
 .social-networks {
     text-align: center;
 
 }
-.social-networks > li {
+
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
-    font-size:160%;
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: rgb(118, 69, 6);}
+    color: rgb(118, 69, 6);
+}
+
+/* events */
+
+#events{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+#events div {
+    color: rgb(118, 69, 6);
+    background-color: rgb(231, 224, 216);
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+
+}
