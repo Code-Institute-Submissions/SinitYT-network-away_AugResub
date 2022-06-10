@@ -208,6 +208,36 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+   article > h2 {
+       text-size-adjust: 80%;
+   }
+}
+/* for smaller screens from 500px wide and down*/
+@media screen and (max-width:375px) {
+    
+    
+    #logo {
+        
+        
+        width: 100%;
+        font-size: 200%;
+        
+        
+    }
+    
+    #menu {
+        clear: left;
+        float:left;
+        width: 100%;
+        margin:0;
+        font-size: 100%;
+    }
+        
+        
+    
+   article  {
+       width:90%
+   }
 }
 
 
