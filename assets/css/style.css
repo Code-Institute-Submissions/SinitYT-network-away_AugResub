@@ -65,7 +65,6 @@ h2 {
     height: 600px;
     width: 100%;
     background: url(../images/netmain10.jpg) no-repeat center center;
-    /*background: url(../images/netmain10.jpg) center center;*/
     background-size: cover;
     overflow: hidden;
 }
@@ -79,9 +78,7 @@ footer {
     height: 100px;
 }
 
-#social-invite {
-    text-align: center;
-}
+
 
 .social-networks {
     text-align: center;
@@ -104,12 +101,6 @@ footer {
 #events {
 
     width: 100%;
-    /*
-    background-image: url('../images/netmain5.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    */
     overflow: hidden;
 
 }
@@ -121,20 +112,15 @@ footer {
 
 
 #events div {
-    color: black;
+    color: rgb(118, 69, 6);
     background-color: rgb(231, 224, 216);
-
     width: 100%;
     height: 300px;
     float: left;
     padding: 75px 50px;
-
     text-align: left;
     border: 2px solid white;
     box-sizing: border-box;
-
-
-
 
 }
 
@@ -151,19 +137,19 @@ footer {
     background-size: cover;
 
     overflow: hidden;
+    position: relative;
 
 }
 
 
 .register_form {
     margin: 200px 600px 200px 50px;
-    /*color: rgb(118, 69, 6);*/
-    color: rgb(117, 75, 75);
+    color: rgb(118, 69, 6);
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
-    background-color: rgb(229, 216, 157);
+    background-color: rgb(238, 199, 115);
 
 
 }
@@ -171,7 +157,6 @@ footer {
 
 .data_input {
     background: transparent;
-    /*color: rgb(118, 69, 6);*/
     color: #755139FF;
     width: 100%;
     height: 25px;
@@ -199,8 +184,8 @@ footer {
 /* Media queries*/
 /* for medium to smaller screens from 950px wide and down*/
 @media screen and (max-width:950px) {
-    
-    
+
+
     #menu {
         clear: left;
         float: left;
@@ -208,37 +193,36 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-   article > h2 {
-       text-size-adjust: 80%;
-   }
+
+    article>h2 {
+        text-size-adjust: 80%;
+    }
 }
-/* for smaller screens from 500px wide and down*/
+
+/* for smaller screens from 375px wide and down*/
 @media screen and (max-width:375px) {
-    
-    
+
+
     #logo {
-        
-        
+
+
         width: 100%;
         font-size: 200%;
-        
-        
+
+
     }
-    
+
     #menu {
         clear: left;
-        float:left;
+        float: left;
         width: 100%;
-        margin:0;
+        margin: 0;
         font-size: 100%;
     }
-        
-        
-    
-   article  {
-       width:90%
-   }
+
+
+
+    article {
+        width: 90%
+    }
 }
-
-
-  
