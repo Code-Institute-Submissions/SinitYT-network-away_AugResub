@@ -20,11 +20,18 @@ h2 {
     letter-spacing: 3px;
     color: rgba(44, 28, 5, 0.8);
     font-weight: bold;
+    
 }
 
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 20px;
+}
+
+/* Home page text content*/
+article{
+    margin-left: 20px;
 }
 
 /*navigation links*/
@@ -107,6 +114,7 @@ footer {
 
 #events h2 {
     clear: both;
+    margin-left: 20px;
 }
 
 
