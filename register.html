@@ -22,7 +22,7 @@
                     <a href="register.html" class="active">Register</a>
                 </li>
                 <li>
-                    <a href="events.html" c>Events</a>
+                    <a href="events.html" >Events</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -30,8 +30,9 @@
             </ul>
         </nav>
     </header>
-<!--form for people to register-->
-    <body>
+
+<!--form for people to fill out-->
+    
         <section id="form_wrapper">
             <form action="https://formdump.codeinstitute.net/" method="post" class="register_form">
                 <h3>Register <i class="fa-solid fa-hand"></i></h3> <br>
@@ -39,13 +40,13 @@
                 <input type="text" id="full_name" name="full_name" class="data_input" required> <br>
                 <label for="email"> <b>Email Address:</b></label><br>
                 <input type="email" id="email" name="email_address" class="data_input" required>
-                <h4>Month Of Interest:</h4>
+                <h4>Month Of Interest:</h4><br>
                 <label for="event1"><b>August</b></label>
-                <input type="checkbox" id="event1" name="date_of_interest" value="august">
+                <input type="checkbox" id="event1" name="month_of_interest" value="august" class="month" >
                 <label for="event2"><b>October</b></label>
-                <input type="checkbox" id="event2" name="date_of_interest" value="october">
+                <input type="checkbox" id="event2" name="month_of_interest" value="october" class="month">
                 <label for="event3"><b>December</b></label>
-                <input type="checkbox" id="event3" name="date_of_interest" value="december" required>
+                <input type="checkbox" id="event3" name="month_of_interest" value="december" class="month">
                 <br>
 
                 <input type="submit" value="Sign me up!" class="submit_box">
