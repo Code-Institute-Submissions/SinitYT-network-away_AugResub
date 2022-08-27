@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: rgb(118, 69, 6);
+    
 }
 
 /* headings and logo*/
@@ -71,8 +72,9 @@ article{
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/netmain10.jpg) no-repeat center center;
+    background: url(../images/network.jpg)  ;
     background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -132,11 +134,13 @@ footer {
 
 }
 
+
 /* form */
 #form_wrapper {
     width: 100vw;
     height: 100vh;
     background-color: rgb(196, 150, 113);
+    
 
 
     background-image: url('../images/netmain9.jpg');
@@ -207,6 +211,17 @@ footer {
 
     article>h2 {
         text-size-adjust: 80%;
+    }
+    .register_form {
+        margin: 80px 600px 100px 50px;
+        color: rgb(118, 69, 6);
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        padding: 30px;
+        background-color: rgb(238, 199, 115);
+    
+    
     }
 }
 
