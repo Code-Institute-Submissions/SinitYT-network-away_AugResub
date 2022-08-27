@@ -4,7 +4,7 @@
 
 The Network Away website is a networking events page, where Oslo residents interested in networking with like-minded people can visit to get information on event schedules,topic of event and register to participate.
 
-![Alt text](assets/images/responsivenetworking.PNG)
+![Alt text](assets/images/responsivness.PNG)
 
 ## Features
 
@@ -23,11 +23,39 @@ This is a form for users to be able to enter their full name, email and get to c
 
 ![Alt text](assets/images/registerread.PNG)
 
-### Validator testing
+### Testing
+
+
+#### Code Validation
+
 ##### HTML
-- No errors where find when running the project through official W3C validator
+- No errors where found when running the project through official W3C validator
+  ![Alt text](assets/images/htmlvalid.PNG)
+
 ##### CSS
-- No errors where find when running the project through official (jigsaw) validator
+- No errors where found when running the project through official (jigsaw) validator
+  ![Alt text](assets/images/cssvalid.PNG)
+
+#### Manual Testing
+
+- Navigation links -  are expected to take user to desired page with convenience. 
+  - Tested the feature by clicking the different links from each page and they work as expected.
+- Social media links - are expected to take user to the respective social media platform on a new tab. 
+  - Tested the feature by clicking the different links from each page and they work as expected.
+- Register form - is expected to take in user input of name and email and their choice of month they want to participate. In case a user forgets to either type in name or email address, the form is expected to raise a message informing the user to fill out required field. 
+   - Tested the feature by typing in in all the required fields and the form completed sign up as   designed.
+   Did a fault check testing also by leaving out the name and email address on different rounds and 
+   the form raised the requirement message and did not go through the sign up request. 
+
+#### Accessibility 
+ -  ![Alt text](assets/images/access.PNG) 
+
+
+### Bugs
+- Navigation Bugs 
+   - If the user clicked the Register menu option while on the home page, it took the user to the Events page instead of the Register page.
+      - This bug was due to linking the Events page to the Register menu option on navigation section. It was easily fixed by linking the correct page; Register file to the designated menu option. 
+
 
 ### Deployment
 - The site was deployed to Github pages. The procedure of deployment was as follows:

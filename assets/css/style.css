@@ -213,15 +213,9 @@ footer {
         text-size-adjust: 80%;
     }
     .register_form {
-        margin: 80px 600px 100px 50px;
-        color: rgb(118, 69, 6);
-        max-width: 400px;
-        position: absolute;
+        margin: 40px 600px 100px 50px;
         left: 10%;
-        padding: 30px;
-        background-color: rgb(238, 199, 115);
-    
-    
+        padding: 20px;
     }
 }
 
@@ -251,4 +245,11 @@ footer {
     article {
         width: 90%
     }
+    
+#events div {
+  
+   
+    padding: 45px 20px;
+
+}
 }
